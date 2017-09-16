@@ -1,0 +1,50 @@
+html, body {width: 100vw; height: 100vh;}
+body {font-family: Arial, Helvetica, sans-serif;margin: 0;overflow-x: hidden;}
+
+body{background: #121212;color: #ccc;}
+
+/* layout */
+.app-header {background: #252525;color:#fff;min-height: 56px;}
+.app-toolbar {display: flex;height: 64px;align-items: center;padding: 0 16px;}
+.app-toolbar [main-title] {font-size: 20px;}
+
+.jumbo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(/images/front-page.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.jumbo span { display: inline-block; }
+.jumbo span[title] { font-size: 42px; }
+.jumbo span[sub-title] { font-size: 25px; }
+a.app-btn {text-decoration: none;color: inherit;border:1px solid #ccc; border-radius: 10px;padding: 8px;margin-top: 16px;}
+
+
+/* tutorials */
+.tutorials {min-height: 350px; margin-top: 24px;padding: 0 32px 0 16px;}
+.tutorials > header {border-bottom: 1px solid;}
+.tutorials [title] {font-size: 76px;}
+.tutorials > main {margin-top: 24px;}
+
+.tutorial-card {
+  display: inline-block;
+  background: #fff;
+  color: #252525;
+  width: 260px;
+  height: 350px;
+  padding: 0 8px 16px 8px;
+}
+.tutorial-card header { display: flex; height: 175px; align-items: flex-end;}
+.tutorial-card header span {font-size: 20px; background: rgba(0, 0, 0, 0.7); color: #eee;}
+
+/* GIT1 */
+.git1 header {
+  background-image: url(/images/Octocat.png);
+  background-size: cover;
+}
